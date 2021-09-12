@@ -2,7 +2,7 @@
 basd on printer-montitor by qrome
 
 ## Features:
-* Displays the SG and Temp of each tilt
+* Displays the SG and Temp of each tilt hydrometer
 * Option to display time and weather when printer is idle
 
 ## Required Parts:
