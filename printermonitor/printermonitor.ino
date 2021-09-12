@@ -32,7 +32,7 @@ SOFTWARE.
 
 #define VERSION "3.0"
 
-#define HOSTNAME "PrintMon-" 
+#define HOSTNAME "TiltMon-" 
 #define CONFIG "/conf.txt"
 
 /* Useful Constants */
