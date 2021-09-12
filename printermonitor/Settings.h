@@ -67,6 +67,17 @@ int PrinterPort = 1880;        // the port you are running your OctoPrint / Repe
 String PrinterAuthUser = "";      // only used if you have haproxy or basic athentintication turned on (not default)
 String PrinterAuthPass = "";      // only used with haproxy or basic auth (only needed if you must authenticate)
 
+//Tilt Monitoring
+boolean RED = false; // enable montitoring for this tilt color
+boolean GREEN = false; // enable montitoring for this tilt color
+boolean BLACK = false; // enable montitoring for this tilt color
+boolean PURPLE = false; // enable montitoring for this tilt color
+boolean ORANGE = false; // enable montitoring for this tilt color
+boolean BLUE = false; // enable montitoring for this tilt color
+boolean YELLOW = false; // enable montitoring for this tilt color
+boolean PINK = false; // enable montitoring for this tilt color
+boolean IS_METRIC = false; // false = deg F and true = deg C
+
 // Weather Configuration
 boolean DISPLAYWEATHER = true; // true = show weather when not printing / false = no weather
 String WeatherApiKey = ""; // Your API Key from http://openweathermap.org/
